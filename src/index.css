@@ -1,0 +1,137 @@
+.info, .navbar{
+    background-color: #2C3E50;
+}
+
+.icon-cover{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.icon-cover:hover{
+    background-color: white;
+    color: black;
+}
+
+.divider-into{
+    width: 10%;
+    background-color: #Fff;
+    height: 3px;
+}
+
+.start-react{
+    font-size: 64px;
+    line-height: 56px;
+    font-weight: 700;
+}
+
+.home{
+    background-color: #1ABC9C;
+}
+
+.porto{
+    color: #2C3E50;
+}
+
+.divider-porto{
+        width: 10%;
+        height: 3px;
+        background-color: #2C3E50;  
+}
+
+.divider-porto-icon{
+    color: #2C3E50;
+}
+
+.overlay{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #29B197;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    cursor: pointer;
+}
+
+.item:hover .overlay{
+    opacity: 1;
+}
+
+#lightBoxContainer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 200000;
+}
+.img-zzz{
+    width: 50%;
+    height: 330px;
+    background-image: url(../images/cabin.png);
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-repeat: no-repeat;
+}
+
+#lightbox {
+    background-color: #fff;
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: relative;
+    
+}
+#closebtn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    color:aqua;
+}
+
+.text-success{
+    position: relative;
+    top: 30px;
+    opacity: 1;
+}
+
+label{
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+}
